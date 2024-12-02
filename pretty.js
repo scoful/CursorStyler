@@ -37,7 +37,7 @@ setTimeout(() => {
             font-size: 18px !important; 
         }
 
-        /* 主编辑区触发功能后*/
+        /* 主编辑区触发提示词栏后*/
         .cursor-button.cursor-button-secondary.cursor-button-secondary-clickable, /* Esc to Close */
         .cursor-button.cursor-button-secondary.cursor-button-not-clickable, /* Ctrl+Shift+K to toggle */
         div:has(>.aislash-editor-input), /* 输入框 */
@@ -258,6 +258,7 @@ setTimeout(() => {
         .codicon.codicon-menubar-more,
         .codicon.codicon-open-preview,
         .codicon.codicon-copy,
+        .codicon.codicon-x,
         .codicon.codicon-eye-closed {
             font-size: 15px !important; 
         }
