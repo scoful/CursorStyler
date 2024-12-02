@@ -33,12 +33,16 @@ setTimeout(() => {
         .ya-solid-dropdown-menu input, /* 模型选择下拉 模型搜索 */
         .monaco-scrollable-element, /* 菜单栏 */
         .codicon.codicon-chevron-right ~ div, /* composer的已选文件名字 */
-        .cursor-button.cursor-button-secondary.cursor-button-secondary-clickable, /* Esc to Close */
-        .cursor-button.cursor-button-secondary.cursor-button-not-clickable, /* Ctrl+Shift+K to toggle */
-        div:has(>.aislash-editor-input), /* 主编辑区触发的代码块输入框 */
-        .cursor-button.cursor-button-primary.cursor-button-primary-clickable, /* GENERATE按钮 */
         .ya-solid-dropdown-menu div { /* 模型选择下拉 模型列表 */
             font-size: 18px !important; 
+        }
+
+        /* 主编辑区触发功能后*/
+        .cursor-button.cursor-button-secondary.cursor-button-secondary-clickable, /* Esc to Close */
+        .cursor-button.cursor-button-secondary.cursor-button-not-clickable, /* Ctrl+Shift+K to toggle */
+        div:has(>.aislash-editor-input), /* 输入框 */
+        .cursor-button.cursor-button-primary.cursor-button-primary-clickable, {/* GENERATE按钮 */
+            font-size: 15px !important; 
         }
 
         /* 处理一下因为字体变大，高度不够，border遮挡了文字的问题 */
