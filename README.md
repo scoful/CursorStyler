@@ -1,10 +1,12 @@
 # 🎨 Cursor Pretty | 让你的 Cursor 编辑器更好看！
 
+[English Version](README_en.md) | 中文版
+
 ---
 
 ## 🎯 为什么需要这个插件?
 
-### 😫 Cursor 编辑器的痛点
+### 😫 Cursor 编辑器的痛点 
 
 1. **字体问题**
 - 🔒 字体无法自由修改,只能使用默认字体
